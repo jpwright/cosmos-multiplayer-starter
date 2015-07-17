@@ -1,0 +1,15 @@
+Server to Client:
+your-info (id, color)
+existing-player (id, name, color, position)
+new-player (id, name, color, position)
+player-left (id)
+player-move (id, dir, delta)
+green-plant (position)
+brown-plant (position)
+username (id, name)
+
+Client to Server:
+key (dir, delta, position)
+green-plant (position)
+username (name)
+		
